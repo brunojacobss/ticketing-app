@@ -49,7 +49,7 @@ const LandingPage = ({ currentUser, tickets }: Props) => {
   return (
     <Container>
       <Typography className={classes.title} variant="h3">
-        Tickets
+        Tickets available
       </Typography>
       <TableContainer className={classes.table} component={Paper}>
         <Table>
